@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <link rel="icon" type="image/x-icon" href="./images/logo.png">
+    <link rel="stylesheet" href="index.css">
+    <title>Zaluea | Games</title>
+</head>
+<body>
+    <div class="bar">
+        <div class="main_title"><a href="/">Zaluea</a></div>
+        <div class="button games" id="button"><a href="games.html">Games</a></div>
+        <div class="button ytlink" id="button1" onclick="quickLink('hvtrs8%2F-wuw%2Cymuvu%60e%2Ccmm-')">YouTube</div>
+        <div class="button tabconfig" id="button2" onclick="settings()">Tab Config</div>
+        <div class="button updates_btn" id="button3" onclick="updates()">Updates</div>
+        <div class="settings" id="settings">
+            <div class="settingsstuff title_main">Settings</div>
+            <center>
+                <input class="setTitle" placeholder="Title" onkeyup="titleSet(this.value)">
+                <input class="setIco" placeholder="Icon" onkeyup="iconSet(this.value)">
+                <div class="resetButton" onclick="reset()">Reset</div>
+            </center>
+        </div>
+        <div class="updates" id="updates">
+            <div class="updatetitle title_updates">Updates</div>
+            <center>
+                <div class="updatespage" id="updatespage"></div>
+            </center>
+        </div>
+        <div class="button closegame" id="button_closegame" onclick="closeGame()">Close Game</div>
+        <div class="button fullscreengame" id="button_fullscreengame" onclick="fullscreenGame()">Fullscreen Game</div>
+    </div>
+    <div class="games_title">Games</div>
+    <center>
+        <div class="page">
+        <div id="gameslist"></div>
+        </div>
+        <div class="text">More games will be added in the future!</div>
+    </center>
+    <iframe src="" class="gamewindow" id="gamewindow"></iframe>
+    <div class="bottom">
+        <div class="textbottom title_bottom">Zaluea Network 2022</div>
+        <i class="linkbottom other"><a href="https://github.com/TheIcy/Zaluea">GitHub</a></i>
+        <i class="linkbottom discord"><a href="https://discord.gg/dE7puEgwap">Discord</a></i>
+    </div>
+    <script src="uv/uv.bundle.js"></script>
+    <script src="uv/uv.config.js"></script>
+    <script src="index.js"></script>
+    <script src="site.js"></script>
+    <script src="games.js"></script>
+    <script src="updates.js"></script>
+</body>
+</html>
